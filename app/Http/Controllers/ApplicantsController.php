@@ -92,7 +92,7 @@ class ApplicantsController extends Controller
 
 
         $applicants = Applicant::count();
-        if ($applicants > 4) {
+        if ($applicants >= 4) {
 
             return redirect('/')->with('error', 'Application Closed!');
         } else {
