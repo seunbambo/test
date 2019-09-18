@@ -8,11 +8,8 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <!-- Left Side Of Navbar -->
-            <ul class="navbar-nav mr-auto">
-
-            </ul>
-            <ul class="nav navbar-nav">
+            
+            <ul class="nav navbar-nav mx-auto">
                 <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
                 <li class="nav-item"><a href="/dashboard" class="nav-link">Applicants</a></li>
             </ul>
